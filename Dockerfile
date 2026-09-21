@@ -1,4 +1,4 @@
-From eclipse -temurin:21-jdk
+FROM eclipse-temurin:21-jdk
 WORKDIR /app
 COPY . /app
 RUN java Sample
